@@ -161,7 +161,7 @@ const Cart = () => {
               </div>
             </div>
             <p className="text-center">
-              ${product.offerPrice * product.quantity}
+              Rs.{product.offerPrice * product.quantity}
             </p>
             <button
               onClick={() => removeFromCart(product._id)}
@@ -266,7 +266,7 @@ const Cart = () => {
         <div className="text-gray-500 mt-4 space-y-2">
           <p className="flex justify-between">
             <span>Price</span>
-            <span>${totalCartAmount()}</span>
+            <span>Rs.{totalCartAmount()}</span>
           </p>
           <p className="flex justify-between">
             <span>Shipping Fee</span>
@@ -274,11 +274,11 @@ const Cart = () => {
           </p>
           <p className="flex justify-between">
             <span>Tax (2%)</span>
-            <span>${(totalCartAmount() * 2) / 100}</span>
+            <span>Rs.{(totalCartAmount() * 2) / 100}</span>
           </p>
           <p className="flex justify-between text-lg font-medium mt-3">
             <span>Total Amount:</span>
-            <span>${totalCartAmount() + (totalCartAmount() * 2) / 100}</span>
+            <span>Rs.{totalCartAmount() + (totalCartAmount() * 2) / 100}</span>
           </p>
         </div>
 

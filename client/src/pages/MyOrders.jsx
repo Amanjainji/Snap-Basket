@@ -27,7 +27,7 @@ const MyOrders = () => {
           <div className="flex justify-between mb-4">
             <span>ID: {order._id}</span>
             <span>Payment: {order.paymentType}</span>
-            <span>Total: ${order.amount.toFixed(2)}</span>
+            <span>Total: Rs.{order.amount.toFixed(2)}</span>
           </div>
           {order.items.map((item, i) => (
             <div
@@ -57,7 +57,7 @@ const MyOrders = () => {
                   })}
                 </p>
                 <p>
-                  Amount: $
+                  Amount: Rs.
                   {(item.product.offerPrice * item.quantity).toFixed(2)}
                 </p>
               </div>
