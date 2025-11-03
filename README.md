@@ -4,7 +4,7 @@ A modern, responsive grocery e-commerce web application built with React and Vit
 
 ## 🌟 Home page
 
-![Snap Bucket Homepage](Screenshots/banner.png)
+![Snap Bucket Homepage](Screenshots/Banner.png)
 
 ## 🌟 All Products page
 
