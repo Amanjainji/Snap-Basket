@@ -1,18 +1,26 @@
-# 🛒 Snap Basket - Client
+# 🛒 Snap Bucket - Client
 
-A modern, responsive grocery e-commerce web application built with React and Vite. Snap Basket offers fresh, organic produce and groceries with a focus on quality and savings.
+A modern, responsive grocery e-commerce web application built with React and Vite. Snap Bucket offers fresh, organic produce and groceries with a focus on quality and savings.
 
 ## 🌟 Home page
-![Snap Basket Homepage](Screenshots/Banner.png)
-## 🌟 All Products page
-![Snap Basket AllProducts](Screenshots/Home.png)
-## 🌟 Product page
-![Snap Basket Product](Screenshots/Product.png)
-## 🌟 Cart page
-![Snap Basket Cart](Screenshots/Cart.png)
-## 🌟 Orders Placed page
-![Snap Basket Orders Placed](Screenshots/Orders.png)
 
+![Snap Bucket Homepage](Screenshots/Banner.png)
+
+## 🌟 All Products page
+
+![Snap Bucket AllProducts](Screenshots/Home.png)
+
+## 🌟 Product page
+
+![Snap Bucket Product](Screenshots/Product.png)
+
+## 🌟 Cart page
+
+![Snap Bucket Cart](Screenshots/Cart.png)
+
+## 🌟 Orders Placed page
+
+![Snap Bucket Orders Placed](Screenshots/Orders.png)
 
 ## 🌟 Features
 
@@ -32,6 +40,7 @@ Visit the live application: [https://snap-bucket-client.onrender.com](https://sn
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React 18** - Modern React with hooks and functional components
 - **Vite** - Fast build tool and development server
 - **JavaScript/ES6+** - Modern JavaScript features
@@ -39,6 +48,7 @@ Visit the live application: [https://snap-bucket-client.onrender.com](https://sn
 - **React Router** - Client-side routing
 
 ### Backend Integration
+
 - **JWT Authentication** - Secure token-based authentication
 - **REST API** - Integration with Express.js backend
 - **MongoDB** - Database integration for user and product data
@@ -46,30 +56,35 @@ Visit the live application: [https://snap-bucket-client.onrender.com](https://sn
 ## 📦 Installation
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - npm package manager
 
 ### Setup
 
 1. **Clone the repository**
+
    ```bash
-   git clone https://github.com/Amanjainji/snap-basket-client.git
-   cd snap-basket-client
+   git clone https://github.com/Amanjainji/snap-Bucket-client.git
+   cd snap-Bucket-client
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Environment Variables**
    Create a `.env` file in the root directory:
+
    ```env
    VITE_API_BASE_URL=your_backend_api_url
    VITE_JWT_SECRET=your_jwt_secret
    ```
 
 4. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -88,7 +103,7 @@ The built files will be in the `dist` directory.
 ## 📁 Project Structure for frontend
 
 ```
-snap-basket-client/
+snap-Bucket-client/
 ├── public/
 │   ├── index.html
 │   └── assets/
@@ -135,6 +150,7 @@ This client application integrates with a separate Express.js backend API that h
 ## 📱 Responsive Design
 
 The application is fully responsive and optimized for:
+
 - Desktop computers
 - Tablets
 - Mobile phones
@@ -183,10 +199,10 @@ The application is deployed on Render. For your own deployment:
 ## 📞 Support
 
 If you have any questions or need help, please:
+
 - Open an issue on GitHub
 - Contact: ajamanjain27@gmail.com
 
 ---
 
 ⭐ **Star this repository if you found it helpful!**
-
